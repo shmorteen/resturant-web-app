@@ -1,0 +1,61 @@
+<!-- Large screen Navbar -->
+ <nav class="navbar d-none d-md-flex navbar-expand-lg navbar-light bg-white p-0 shadow-sm">
+  <div class="container-fluid d-flex" style="padding-right: 40px;">
+      <a class="navbar-brand" href="#"><img src="http://pepperhouserestaurant.com/wp-content/uploads/2022/03/Pepperhouse-logo.png" style="max-height: 70px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="w-100 text-end">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end">
+                  <li class="nav-item">
+                  <a class="nav-link ubuntu7" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link ubuntu7" href="#">ABOUT THE CITY</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link ubuntu7" href="#">CONTACT</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</nav>
+
+<!-- Mobile Navbar -->
+<nav class="navbar d-md-none navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="http://pepperhouserestaurant.com/wp-content/uploads/2022/03/Pepperhouse-logo.png" style="max-width: 200px; max-height:auto;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end">
+          <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        Website navbar
+      </a>
+    </div>
+</nav> -->
+
+<div class="container-flex pepperRedBg border">
+    <router-outlet></router-outlet>
+</div>

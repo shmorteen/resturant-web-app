@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+.ubuntu3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+.ubuntu4{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+.ubuntu5{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.ubuntu7{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.pepperGrayBg{
+    background-color: #F2F2F2;
+}
+.pepperGrayText{
+    color: #F2F2F2;
+}
+.pepperRedBg{
+    background-color: #E13939;
+}
+.pepperRedText{
+    background-color: #E13939;
+}
+.pepperGreenBg{
+    background-color: #6DCB6B;
+}
+.pepperGreenText{
+    color: #6DCB6B;
+}
+.pepperWhiteBg{
+    background-color: #FFFFFF;
+}
+.pepperWhiteText{
+    color: #FFFFFF;
+}
+.pepperYellowBg{
+    color: #f4db2a;
+}
+.pepperYellowText{
+    background-color: #f4db2a;
+}
